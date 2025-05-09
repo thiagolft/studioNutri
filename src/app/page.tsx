@@ -17,7 +17,7 @@ export default function HomePage() {
     <main className="flex min-h-screen flex-col items-center p-4 sm:p-6 md:p-10 bg-background text-foreground">
       <header className="my-8 text-center max-w-3xl w-full">
         <Image 
-            src="https://picsum.photos/seed/nutriai/120/120" 
+            src="/Isadora-img.jpg" 
             alt="Logo NutriAI Recipes"
             width={100}
             height={100}
