@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
-import { ClipboardText } from "lucide-react";
+import { ClipboardType } from "lucide-react"; // Changed from ClipboardText
 
 interface CopyButtonProps {
   textToCopy: string;
@@ -40,7 +40,7 @@ export function CopyButton({ textToCopy }: CopyButtonProps) {
 
   return (
     <Button variant="outline" onClick={handleCopy} aria-label="Copiar texto">
-      <ClipboardText className="mr-2 h-4 w-4" />
+      <ClipboardType className="mr-2 h-4 w-4" />
       Copiar
     </Button>
   );
